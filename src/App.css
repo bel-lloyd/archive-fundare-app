@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Lato&family=Spartan:wght@100;200;300;400;500;600&display=swap');
+
+/* * {
+  border: 1px solid fuchsia;
+} */
+
+#dares-list {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  column-gap: 40px;
+  row-gap: 30px;
+}
+
+body {
+  height: 100%;
+  max-width: 100%;
+  margin:0;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.dare {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  text-align: center;
+  width: 85%;
+  border-radius: .45rem;
+  margin-bottom: 50px;
+}
+
+.dare-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.dare h2 {
+  text-transform: uppercase;
+  text-align: left;
+  color: black;
+}
+
+.dare-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #38F3FF;
+  color: darkslategrey;
+  text-align: center;
+  align-items: center;
+}
+
+.dare-page button {
+  width: 30%;
+}
+
+.dare-page img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: .45rem;
+  box-shadow: 0 11px 32px rgb(31 119 166 / 40%);
+}
+
+.dare-page a {
+  padding: 20px;
+  font-family: spartan, sans-serif;
+  font-weight: 600;
+  color: black;
+}
+
+h1 {
+  color: black;
+  font-family: spartan, sans-serif;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+  font-family: Spartan, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: darkslategrey;
+  font-size: 16px;
+  text-align: center;
+  font-family: spartan, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  font-size: 1rem;
+  font-family: spartan, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 5px 10px 5px;
+  background-color: darkslategrey;
+  color: white;  
+  border-radius: .45rem;
+  margin-top: 30px;
+}
+
+.dare p {
+  padding: 5px 30px 5px 30px;
+  font-family: spartan, sans-serif;
+}
+
+.dare li {
+  text-align: left;
+  font-family: spartan, sans-serif;
+}
